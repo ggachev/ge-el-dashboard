@@ -1,0 +1,40 @@
+{
+    "id": 9,
+    "meta": {
+        "appliance_phase_U": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "appliance_phase_V": {
+            "type": "Heat Gun",
+            "brand": "Porxxon",
+            "manufacture_year": "",
+            "model_number": "MH550",
+            "voltage": "230",
+            "wattage": "550",
+            "notes": "1. Stufe"
+        },
+        "appliance_phase_W": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "header": {
+            "collection_time": "8.6.2023",
+            "notes": "Heat Gun test 3",
+            "number_samples": 1000,
+            "sampling_frequency_Hz": 10.0,
+            "ambient_temperature_celsius": 33,
+            "location": "IfI, TU Clausthal"
+        }
+    }
+}

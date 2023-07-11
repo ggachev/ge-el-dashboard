@@ -1,0 +1,40 @@
+{
+    "id": 7,
+    "meta": {
+        "appliance_phase_U": {
+            "type": "Laptop Ladeger\u00e4t",
+            "brand": "Apple",
+            "manufacture_year": "2020",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": "Echter test von Laptop"
+        },
+        "appliance_phase_V": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "appliance_phase_W": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "header": {
+            "collection_time": "26.6.2023",
+            "notes": "",
+            "number_samples": 500,
+            "sampling_frequency_Hz": 10.0,
+            "ambient_temperature_celsius": 27,
+            "location": "IfI, TU Clausthal"
+        }
+    }
+}
