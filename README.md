@@ -24,6 +24,7 @@ It is important to adjust the ip adresses and port of the grid emulator and the 
 When the file is started the dashboard is available on the localhost on port 8050. This can be changed if wanted in the dash_app.py file.
 Through the dashboard one is able to start and stop the GE and EL and to set specific voltage or current respectively. Energy data sampling on the connected appliances can be done throught the grid emulator. For the sampling metadata is needed which will be stored in a json file in the folder saved in UPLOAD_FOLDER_ROOT. The structure of the file is:
 
-<img width="147" alt="image" src="https://github.com/ggachev/ge-el-dashboard/assets/38385295/5ab4853c-ecdd-485a-9111-721be7139ca6">
+<img width="806" alt="Json metadata structure" src="https://github.com/ggachev/ge-el-dashboard/assets/38385295/dae3ad02-1d25-4da0-8bc2-714e1e088653">
+
 
 The samples are stored also there in csv files storing all outputs that the GE has. The names of the files are incremented after every sampling done and stored with the number as name.
