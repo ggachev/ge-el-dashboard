@@ -1,0 +1,40 @@
+{
+    "id": 12,
+    "meta": {
+        "appliance_phase_U": {
+            "type": "Soldering station",
+            "brand": "Ersa",
+            "manufacture_year": "",
+            "model_number": "Type i-CON VARIO 2",
+            "voltage": "230",
+            "wattage": "200",
+            "notes": "Not using the air tool"
+        },
+        "appliance_phase_V": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "appliance_phase_W": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "header": {
+            "collection_time": "13.7.2023",
+            "notes": "Sampling of emulation (8.csv)",
+            "number_samples": 3000,
+            "sampling_frequency_Hz": 10.0,
+            "ambient_temperature_celsius": 33,
+            "location": "IfI, TU Clausthal"
+        }
+    }
+}

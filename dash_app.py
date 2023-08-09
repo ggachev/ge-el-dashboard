@@ -20,7 +20,7 @@ filepath_csv = Path()
 filepath_json = Path()
 
 # Define upload folder and upload settings
-UPLOAD_FOLDER_ROOT = r"/data/"
+UPLOAD_FOLDER_ROOT = r"/home/cube/Desktop/ge_el_dash/data/"
 @server.route("/download/<path:path>")
 def download(path):
     """Serve a file from the upload directory."""
@@ -602,8 +602,8 @@ tab3_content = dbc.Card(
             ),
             dbc.InputGroup(
                 [
-                    dbc.InputGroupText("Number of samples (min = 1)"),
-                    dbc.Input(type="number", min=1, step=1, value=100, id="appliance-iterations"),
+                    dbc.InputGroupText("Sampling duration in s (min = 1 s)"),
+                    dbc.Input(type="number", min=1, step=1, value=60, id="appliance-iterations"),
                 ],
                 className="mb-3",
             ),
@@ -1187,7 +1187,7 @@ def start_sampling(n_clicks, value_phase_u, value_phase_v, value_phase_w, phase_
         global filepath_csv
         global filepath_json
 
-        iterations = iterations_new
+        iterations = iterations_new / spacing_new
         spacing = spacing_new
         time_rem = iterations * spacing + 1
 

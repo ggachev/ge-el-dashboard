@@ -1,0 +1,40 @@
+{
+    "id": 7,
+    "meta": {
+        "appliance_phase_U": {
+            "type": "Phone charger",
+            "brand": "Apple",
+            "manufacture_year": "2022",
+            "model_number": "A1692",
+            "voltage": "230",
+            "wattage": "15",
+            "notes": ""
+        },
+        "appliance_phase_V": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "appliance_phase_W": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "header": {
+            "collection_time": "13.7.2023",
+            "notes": "",
+            "number_samples": 3000,
+            "sampling_frequency_Hz": 10,
+            "ambient_temperature_celsius": 32,
+            "location": "IfI, TU Clausthal"
+        }
+    }
+}

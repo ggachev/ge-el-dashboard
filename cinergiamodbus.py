@@ -182,7 +182,7 @@ def start_electronic_load():
         print(electronicLoad.last_error_as_txt)
         raise Exception("Connecting to the electronic load timeout")
 
-    #Strt the electronic load -> from Standy to Run electronic load Mode Section 4.1 and 4.2 table 4.2.1
+    #Start the electronic load -> from Standy to Run electronic load Mode Section 4.1 and 4.2 table 4.2.1
     #Step 1 CW_EnableDisable -> should be 1
     electronicLoad.write_multiple_registers(17000, int_to_register(1))
     boolean = electronicLoad.read_holding_registers(17000, 2)
@@ -523,7 +523,7 @@ def stop_grid_emulator():
     boolean = gridEmulator.read_holding_registers(17000, 2)
     if boolean[1]:
         raise Exception("CW_EnableDisable at EL not 0")
-    print("GE Device Standy")
+    print("GE Device Standby")
     gridEmulator.close()
 
 def stop_electronic_load():
@@ -533,7 +533,7 @@ def stop_electronic_load():
     boolean = electronicLoad.read_holding_registers(17000, 2)
     if boolean[1]:
         raise Exception("CW_EnableDisable at EL not 0")
-    print("EL device Standy")
+    print("EL device Standby")
     gridEmulator.close()
 
 def test_func(uvalue, vvalue, wvalue):

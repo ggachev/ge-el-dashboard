@@ -1,13 +1,13 @@
 import json
 from datetime import datetime
 
-UPLOAD_FOLDER_ROOT = r"/data/"
+UPLOAD_FOLDER_ROOT = r"/home/cube/Desktop/ge_el_dash/data/"
 
 data = {
     "id": "",
     "meta": {
         "appliance_phase_U": {
-            "type": "",
+            "type": "", 
             "brand": "",
             "manufacture_year": "",
             "model_number": "",
@@ -67,7 +67,7 @@ def save_to_json(number_of_file, metadata_u, metadata_v, metadata_w, notes, numb
 
     data["meta"]["header"]["notes"] = notes
 
-    data["meta"]["header"]["number_samples"] = number_samples
+    data["meta"]["header"]["number_samples"] = int(number_samples)
 
     #Convert s in Hz
     sampling_frequency = 1 / sampling_frequency

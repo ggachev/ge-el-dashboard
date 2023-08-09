@@ -1,0 +1,40 @@
+{
+    "id": 11,
+    "meta": {
+        "appliance_phase_U": {
+            "type": "Toaster",
+            "brand": "SilverCrest",
+            "manufacture_year": "2021",
+            "model_number": "STC 950 D3",
+            "voltage": "230",
+            "wattage": "800-950",
+            "notes": ""
+        },
+        "appliance_phase_V": {
+            "type": "Hair dryer",
+            "brand": "Remington",
+            "manufacture_year": "2020",
+            "model_number": "D5950",
+            "voltage": "230",
+            "wattage": "1850-2200",
+            "notes": ""
+        },
+        "appliance_phase_W": {
+            "type": "",
+            "brand": "",
+            "manufacture_year": "",
+            "model_number": "",
+            "voltage": "",
+            "wattage": "",
+            "notes": ""
+        },
+        "header": {
+            "collection_time": "13.7.2023",
+            "notes": "Sampling of emulation (file 6.csv)",
+            "number_samples": 3000,
+            "sampling_frequency_Hz": 10.0,
+            "ambient_temperature_celsius": 32,
+            "location": "IfI, TU Clausthal"
+        }
+    }
+}
