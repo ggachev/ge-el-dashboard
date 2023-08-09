@@ -1,6 +1,8 @@
 # ge-el-dashboard
 Implementation of web-based dashboard for controlling a grid emulator (GE+ 10 vAC/DC) and electronic load (EL+ 10 vAC/DC) from cinergia according to my bachelor thesis at the TU Clausthal.
 
+<img width="1395" alt="Screenshot_Dashboard" src="https://github.com/ggachev/ge-el-dashboard/assets/38385295/59c3b1cd-c742-4c53-aab9-4442f2eeebe1">
+
 # Requirements
 The project was developted on Python 3.11 and is working, with other versions probably also.
 To start the project some python libraries are needed to be installed. Those are:
